@@ -246,40 +246,6 @@ blockquote {
 	right: 0;
 }
 
-/* .studies {
-    background: var(--main);
-    text-align: center;
-}
-
-.studies h1 {
-    margin-left: 20px;
-}
-
-.studies .studies-info {
-    margin-left: 20px;
-}
-
-.studies-info {
-    display: inline-block;
-    color: var(--secondary-text);
-    width: 50%;
-}
-
-.studies-title {
-    float: left;
-}
-
-.studies-description {
-}
-
-.studies small {
-    display: block;
-} 
-
-.academy {
-    font-size: 0.75em;
-} */
-
 .skills {
     background: var(--main);
     text-align: center;
@@ -307,6 +273,7 @@ blockquote {
     width: 60%;
     text-align: left;
  }
+
 .skill-score { 
     float: right; 
 }
@@ -389,18 +356,12 @@ blockquote {
         margin-left: -23px;
     }
 
-    /* .studies {
-        text-align: center;
-    }
-
-    .studies h1 {
-        text-align: left;
-    }
-    
-    .studies-info {
-        margin-left: 0px;
+    .skills-info {
         width: 80%;
-    } */
+        display: inline-block;
+        vertical-align: top;
+        line-height: 2;
+    }
 
     .phone {
         display: none;
