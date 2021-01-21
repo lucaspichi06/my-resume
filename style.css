@@ -1,12 +1,12 @@
 :root {
-    --primary: #383434;
-    --dark-primary: #000000;
+    --primary: #D9CBBA;
+    --dark-primary: #0D0D0D;
     --light-primary: #fcfcfc;
     --text: #ffffff;
     --primary-text: #212121;
     --secondary-text: #757575;
-    --accent: #FF4081;
-    --main: #c5ffc8;
+    --accent: #D93E30;
+    --main: #F2F2F2;
 }
 
 section {
@@ -49,6 +49,7 @@ h1 {
     position: relative;
     text-align: left;
     margin-left: 30px;
+    color: var(--secondary-text)
 }
 
 .profile-info h2 {
@@ -266,6 +267,7 @@ blockquote {
     display: inline-block;
     vertical-align: top;
     line-height: 2;
+    color: var(--secondary-text)
 }
 
 .skill-title { 
@@ -372,7 +374,7 @@ blockquote {
     background-color:var(--light-primary);
     display: inline-block;
     border-radius: 2px;
-    box-shadow: 0px 2px 6px grey;
+    box-shadow: 0px 2px 6px var(--dark-primary);
     position: fixed;
     top: 3em;
     z-index: 100;
@@ -388,7 +390,7 @@ blockquote {
 .floating-nav a {
     text-decoration: none;
     padding: 10px;
-    color: var(--primary);
+    color: var(--primary-text);
     margin: 0px 0px;
     font-size: 10px;
 }
