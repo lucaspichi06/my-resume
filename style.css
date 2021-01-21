@@ -135,6 +135,10 @@ h1 {
 	margin-bottom: 70px;
 }
 
+.timeline-item:nth-child(odd) .timeline-content h2{
+    padding-top: 20px;   
+}
+
 .timeline-item:nth-child(even) .timeline-content {
     float: right;
     padding: 40px 30px 10px 30px;
