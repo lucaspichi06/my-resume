@@ -324,6 +324,11 @@ blockquote {
         line-height: 2;
     }
     
+    .profile-img {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
     .profile-about {
         width: 100%;
         text-align: center;
@@ -397,6 +402,22 @@ blockquote {
 
     .phone {
         display: none;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .profile {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 768px) and (max-height: 1024px) {
+    .profile {
+        height: 950px;
+    }
+
+    .timeline::before {
+        height: 80%;
     }
 }
 
